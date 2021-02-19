@@ -1,13 +1,12 @@
 html,
-body {
-  font-family: "Lato", sans-serif;
-}
-
+body,
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p,
+button {
   font-family: "Lato", sans-serif;
 }
 
@@ -20,6 +19,10 @@ body {
   background-color: black;
   color: white;
   font-size: 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .header__nav {
@@ -109,12 +112,65 @@ body {
   margin: 1em;
 }
 
-.covid {
-  background-color: pink;
+.covid-banner {
+  background-color: white;
 }
 
-.carousel {
-  background-color: blue;
+.covid-banner__content {
+  text-align: center;
+  width: 65%;
+  margin: 2.5em auto;
+}
+
+.covid-banner__heading {
+  font-size: 32px;
+}
+
+.covid-banner__text {
+  font-size: 18px;
+}
+
+.new-releases {
+  background-color: #111111;
+  color: white;
+  padding: 2rem;
+}
+
+.new-releases__content {
+  width: 80%;
+  margin: auto;
+}
+
+.new-releases__title {
+  margin-bottom: 2rem;
+}
+
+.new-releases__button {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1em;
+  border-radius: 30px;
+}
+
+.new-releases__button-icon {
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.new-releases__button-wrapper {
+  text-align: right;
+}
+
+.new-releases__carousel-title {
+  font-size: 1em;
+}
+
+.new-releases .slick-list {
+  padding: 0 10% 0 0 !important;
+}
+
+.new-releases .slick-slide {
+  margin-right: 1em;
 }
 
 .star-wars {

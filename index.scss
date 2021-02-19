@@ -1,13 +1,12 @@
 html,
-body {
-  font-family: "Lato", sans-serif;
-}
-
+body,
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p,
+button {
   font-family: "Lato", sans-serif;
 }
 
@@ -20,6 +19,9 @@ body {
   background-color: black;
   color: white;
   font-size: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
   &__nav {
     display: inline-block;
   }
@@ -30,7 +32,6 @@ body {
     a {
       color: white;
     }
-
     margin: 0 1em;
   }
   &__right-col {
@@ -85,12 +86,58 @@ body {
     margin: 1em;
   }
 }
-.covid {
-  background-color: pink;
+.covid-banner {
+  background-color: white;
+
+  &__content {
+    text-align: center;
+    width: 65%;
+    margin: 2.5em auto;
+  }
+  &__heading {
+    font-size: 32px;
+  }
+  &__text {
+    font-size: 18px;
+  }
 }
-.carousel {
-  background-color: blue;
+.new-releases {
+  background-color: #111111;
+  color: white;
+  padding: 2rem;
+  &__content {
+    width: 80%;
+    margin: auto;
+  }
+  &__title {
+    margin-bottom: 2rem;
+  }
+  &__button {
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1em;
+    border-radius: 30px;
+  }
+  &__button-icon {
+    margin: 0 1em;
+    vertical-align: middle;
+  }
+  &__button-wrapper {
+    text-align: right;
+  }
+
+  &__carousel-title {
+    font-size: 1em;
+  }
+
+  .slick-list {
+    padding: 0 10% 0 0 !important;
+  }
+  .slick-slide {
+    margin-right: 1em;
+  }
 }
+
 .star-wars {
   background-color: purple;
 }

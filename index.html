@@ -48,17 +48,27 @@
       </div>
     </header>
     <section class="hero">
-      <img
-        class="hero__background-image"
-        src="./assets/hero-background.png"
-        alt="Star Wars Image"
-      />
+      <div class="hero__carousel">
+        <div>
+          <img
+            class="hero__background-image"
+            src="./assets/hero-background-1.png"
+            alt="Star Wars Image"
+          />
+        </div>
+        <div>
+          <img
+            class="hero__background-image"
+            src="./assets/hero-background-2.png"
+            alt="Star Wars Image"
+          />
+        </div>
+      </div>
+
       <div class="hero__content">
         <img src="./assets/hero-title.png" alt="Star Wars Logo" />
         <h2 class="hero__title">Available Now to Rent or Buy</h2>
         <button class="hero__purchase-button">PURCHASE</button>
-
-        <img class="hero__dots" src="./assets/hero-dots.png" alt="Dots" />
       </div>
     </section>
     <section class="covid-banner">
@@ -180,8 +190,130 @@
         alt="A hand with a microphone"
       />
     </section>
-    <section class="contact"><h2>Contact</h2></section>
-    <footer class="footer"><h2>Footer</h2></footer>
+    <section class="contact">
+      <h2 class="contact__heading">Contact Us</h2>
+      <form class="contact__form">
+        <div
+          class="grid-x grid-x grid-margin-x grid-margin-y contact__input-wrapper"
+        >
+          <input
+            class="contact__input contact__name-input cell auto"
+            type="text"
+            name="name"
+            placeholder="Name*"
+            id=""
+          />
+          <input
+            class="contact__input contact__surname-input cell auto"
+            type="text"
+            name="surname"
+            placeholder="Surname*"
+            id=""
+          />
+        </div>
+        <div class="grid-x grid-margin-x grid-margin-y">
+          <input
+            class="contact__input contact__number-input cell auto"
+            type="text"
+            name="number"
+            placeholder="Contact Number"
+            id=""
+          />
+          <input
+            class="contact__input contact__email-input cell auto"
+            type="email"
+            name="email"
+            placeholder="Email address*"
+            id=""
+          />
+        </div>
+        <div class="grid-x grid-x grid-margin-x grid-margin-y">
+          <textarea
+            class="contact__message-input cell auto"
+            name="message"
+            placeholder="Leave you message here*"
+            id=""
+          ></textarea>
+        </div>
+
+        <button class="contact__button">
+          Submit
+          <img class="contact__button-icon" src="./assets/white-arrow.png" />
+        </button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="grid-x footer__content-container">
+        <div class="cell auto">
+          <h3 class="footer__heading">Movies</h3>
+          <ul class="footer__list">
+            <li>Lorem ipsum</li>
+            <li>Excepteur sint occaecat</li>
+            <li>Cupidatat non proident</li>
+            <li>Sunt in</li>
+            <li>Culpa qui officia deserunt</li>
+            <li>Mollit anim id est laborum</li>
+          </ul>
+        </div>
+
+        <div class="cell auto">
+          <h3 class="footer__heading">Series</h3>
+          <ul class="footer__list">
+            <li>Lorem ipsum</li>
+            <li>Excepteur sint occaecat</li>
+            <li>Cupidatat non proident</li>
+            <li>Sunt in</li>
+            <li>Mollit anim id est laborum</li>
+          </ul>
+        </div>
+
+        <div class="cell auto">
+          <h3 class="footer__heading">DisneyLife</h3>
+          <ul class="footer__list">
+            <li>Lorem ipsum</li>
+            <li>Excepteur sint occaecat</li>
+            <li>Cupidatat non proident</li>
+            <li>Culpa qui officia deserunt</li>
+            <li>Mollit anim id est laborum</li>
+          </ul>
+        </div>
+
+        <div class="cell auto">
+          <h3 class="footer__heading">Holidays</h3>
+          <ul class="footer__list">
+            <li>Lorem ipsum</li>
+            <li>Excepteur sint occaecat</li>
+            <li>Cupidatat non proident</li>
+            <li>Sunt in</li>
+            <li>Culpa qui officia deserunt</li>
+            <li>Mollit anim id est laborum</li>
+          </ul>
+        </div>
+
+        <div class="cell auto">
+          <h3 class="footer__heading">Company</h3>
+          <ul class="footer__list">
+            <li>0206 222 3364</li>
+            <li>0206 222 3364</li>
+            <li>press@disney.com</li>
+            <li>
+              <img
+                class="footer__social-icon"
+                src="./assets/instagram-icon.png"
+              />
+              <img
+                class="footer__social-icon"
+                src="./assets/spotify-icon.png"
+              />
+              <img
+                class="footer__social-icon"
+                src="./assets/twitter-icon.png"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <!-- JS for carousel -->
     <script
       type="text/javascript"

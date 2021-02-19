@@ -19,8 +19,45 @@
     <title>Disney</title>
   </head>
   <body>
-    <header class="header"><h2>Header</h2></header>
-    <section class="hero"><h2>Hero</h2></section>
+    <header class="header grid-x">
+      <div class="cell auto">
+        <img src="./assets//header-logo.png" alt="Disney Logo" />
+        <nav class="header__nav">
+          <ul>
+            <li class="header__nav-item"><a href="">TV</a></li>
+            <li class="header__nav-item"><a href="">MOVIES</a></li>
+            <li class="header__nav-item"><a href="">STORE</a></li>
+            <li class="header__nav-item"><a href="">GAMES</a></li>
+            <li class="header__nav-item"><a href="">VIDEO</a></li>
+            <li class="header__nav-item"><a href="">WIN</a></li>
+            <li class="header__nav-item"><a href="">HOLIDAYS</a></li>
+            <li class="header__nav-item"><a href="">DISNEYLIFE</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right-col cell auto">
+        <button class="header__login-button">
+          <img
+            class="header__login-button-icon"
+            src="./assets/header-button-icon.png"
+          />LOGIN / REGISTER
+        </button>
+      </div>
+    </header>
+    <section class="hero">
+      <img
+        class="hero__background-image"
+        src="./assets/hero-background.png"
+        alt="Star Wars Image"
+      />
+      <div class="hero__content">
+        <img src="./assets/hero-title.png" alt="Star Wars Logo" />
+        <h2 class="hero__title">Available Now to Rent or Buy</h2>
+        <button class="hero__purchase-button">PURCHASE</button>
+
+        <img class="hero__dots" src="./assets/hero-dots.png" alt="Dots" />
+      </div>
+    </section>
     <section class="covid"><h2>Covid</h2></section>
     <section class="carousel"><h2>Carousel</h2></section>
     <section class="star-wars"><h2>Star Wars</h2></section>

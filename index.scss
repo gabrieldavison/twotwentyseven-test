@@ -1,3 +1,4 @@
+// Global Styles
 html,
 body,
 h1,
@@ -15,6 +16,7 @@ body {
   margin: auto;
 }
 
+// Header Styles
 .header {
   background-color: black;
   color: white;
@@ -55,6 +57,7 @@ body {
   }
 }
 
+// Hero Styles
 .hero {
   position: relative;
   background-color: black;
@@ -93,6 +96,8 @@ body {
     font-size: 20px;
   }
 }
+
+// Covid Banner Styles
 .covid-banner {
   background-color: white;
 
@@ -108,6 +113,8 @@ body {
     font-size: 18px;
   }
 }
+
+// New Releases Styles
 .new-releases {
   background-color: #111111;
   color: white;
@@ -145,6 +152,7 @@ body {
   }
 }
 
+// Trailer Styles
 .trailer {
   &__right-col {
     display: flex;
@@ -175,11 +183,15 @@ body {
     margin: 0 1em 0 0.5em;
   }
 }
+
+// Gallery Styles
 .gallery {
   &__image {
     padding: 1em;
   }
 }
+
+// Contact Styles
 .contact {
   width: 70%;
   margin: auto;
@@ -207,6 +219,8 @@ body {
     margin-left: 1em;
   }
 }
+
+// Footer Styles
 .footer {
   background-color: black;
   color: white;

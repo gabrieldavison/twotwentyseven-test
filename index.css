@@ -173,12 +173,47 @@ body {
   margin-right: 1em;
 }
 
-.star-wars {
-  background-color: purple;
+.trailer__right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.gallery {
-  background-color: orange;
+.trailer__content {
+  width: 70%;
+}
+
+.trailer__heading {
+  font-size: 32px;
+}
+
+.trailer__text {
+  font-size: 18px;
+}
+
+.trailer__button {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-radius: 30px;
+}
+
+.trailer__arrow {
+  margin: 0 1em 0 0.5em;
+}
+
+.gallery__image {
+  padding: 1em;
 }
 
 .contact {
